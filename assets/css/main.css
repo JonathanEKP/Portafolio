@@ -8,7 +8,7 @@ html{
 }
 #hero{
     width: auto;
-    height: 90vh;
+    height: 100vh;
     background-image: linear-gradient(
         0deg,
         rgba(0,0,0,0.8),
@@ -33,3 +33,18 @@ html{
 .btn-custom{
     background-color: blueviolet;
 }
+
+.text-logo{
+    color: blueviolet;
+    margin: 0;
+}
+
+.cardIcons{
+    text-decoration: none;
+}
+
+.card-img{
+    object-fit: cover;
+    object-position: center;
+}
+
