@@ -41,7 +41,7 @@
             </div>
             
             <!-- SECCION HOME -->
-            <div class="sec1 seccion home active" id="home">
+            <div class="sec1 seccion home" id="home">
                 <div class="row g-0 m-0">
                     <div class="col-12 col-lg-5 g-0 py-2">
                         <div class="d-flex justify-content-center">
@@ -225,9 +225,31 @@
             </div>
             
             <!-- SECCION CONTACTO -->
-            <div class="sec4 seccion contact" id="contact">
-                <div class="d-flex justify-content-center">
-                    <img src="assets/img/abierto.png" alt="" class="bg-warning">
+            <div class="sec4 seccion contact active" id="contact">
+                <div>
+                    <div class="row">
+                        <div class="col-12 mt-4">
+                            <h1 class="text-danger h1 text-center display-6">Contactame</h1>
+                            <p class="text-center p-3">Rellena el siguiente formulario si quieres ponerte en contacto conmigo :D</p>
+                        </div>
+                        
+                    </div>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <form action="https://formsubmit.co/jonathanvaldez2001@gmail.com" method="POST" >
+                            <label for="emailPersona" class="form-label mb-2">Email address</label>
+                            <input type="email" name="email" class="form-control mb-2" id="emailPersona" aria-describedby="emailHelp" required>
+
+                            <label for="subject" class="form-label mb-2">Asunto</label>
+                            <input type="text" name="subject" class="form-control mb-2" id="subject" required>
+
+                            <label for="comentarios" class="form-label mb-2">Comentarios</label>
+                            <textarea name="comentarios" cols="15" rows="5" class="form-control mb-3" required></textarea>
+
+                            <input type="submit" class="btn btn-outline-danger">
+
+                            <input type="hidden" name="_captcha" value="false">
+                        </form>     
+                    </div>
                 </div>
             </div>
         </section>
