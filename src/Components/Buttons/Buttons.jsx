@@ -14,7 +14,7 @@ function Buttons() {
 
   return(
     <section className="fs-4 position-fixed top-50 d-flex flex-column align-items-center justify-content-center controlls">
-      <Link to="/">
+      <Link to="/Portafolio/">
         <button type="button" className="p-3 control control-1 btn-custom">
           <i className="bi bi-house"></i>
         </button>
