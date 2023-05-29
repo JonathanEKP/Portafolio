@@ -1,0 +1,23 @@
+.bg-img {
+  background-color: #242424;
+}
+
+
+/* Styles for small cell phone screens */
+
+@media (max-width: 320px) {
+  img {
+    width: 100vw;
+  }
+}
+
+
+/* If screen is large for example a tv, the content will be centered */
+
+@media (min-height: 800px) and (min-width: 1024px) {
+  .home {
+    height: 85vh;
+    display: grid;
+    place-content: center;
+  }
+}

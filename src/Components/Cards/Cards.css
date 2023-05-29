@@ -1,0 +1,11 @@
+.cardIcons{
+    text-decoration: none;
+}
+
+.card{
+    border: none;
+}
+
+.card-body{
+    background-color: #1f1f1f !important;
+}

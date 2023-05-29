@@ -1,0 +1,10 @@
+
+
+@media (min-height: 800px) and (min-width: 1024px){
+    .contact {
+        height: 75vh;
+        display: grid;
+        place-content: center;
+    
+    }
+}
